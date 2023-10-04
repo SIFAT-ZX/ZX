@@ -199,7 +199,7 @@ def fuck():
 		print('[•] COUNTRY    : Bangladesh')
 		print('[•] TOTAL ID   :  '+tl)
 		print(f'[•] SIM CODE   : \033[1;92m {kode} ')
-		print('[•] START BD UID MIXT CRACKING... ')
+		print('[•] WORKING ONLY MOBILE DATA+WIFI ... ')
 		print(50*'━')
 		for guru in user:
 			uid = kode+koda+kodb+guru
