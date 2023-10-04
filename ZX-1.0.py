@@ -128,11 +128,11 @@ logo=("""\033[1;33m
 ██████╔╝██║██║░░░░░██║░░██║░░░██║░░░
 ╚═════╝░╚═╝╚═╝░░░░░╚═╝░░╚═╝░░░╚═╝░░░
 \033[1;36m============================================
-\033[1;35m   \033[1;33mFACEBOK      : \033[1;33m SI F AT AHOMMED 
-\033[1;32m   \033[1;36mTOOL STATUS  :  \033[1;36mFILE & RANDOM 
-\033[1;36m   \033[1;35mGITHUB       :  \033[1;35mSIFAT-ZX
-\033[1;32m   \033[1;35mWHATAS APPS  :  \033[1;35m+8801701613050
-\033[1;34m   \033[1;32mTOOL VIRSION :  \033[1;32m1.0
+\033[1;35m   \033[1;35mFACEBOK      : \033[1;32m SI F AT AHOMMED 
+\033[1;35m   \033[1;35mTOOL STATUS  :  \033[1;32mFILE & RANDOM 
+\033[1;35m   \033[1;35mGITHUB       :  \033[1;32mSIFAT-ZX
+\033[1;35m   \033[1;35mWHATAS APPS  :  \033[1;32m+8801701613050
+\033[1;35m   \033[1;35mTOOL VIRSION :  \033[1;32m1.0
 \033[1;36m============================================\n""")                                                                            
 def cek_apk(session,coki):
 	w=session.get("https://mbasic.facebook.com/settings/apps/tabbed/?tab=active",cookies={"cookie":coki}).text
@@ -168,7 +168,7 @@ def Main():
 	if opt in ["A","1"]:
 		fuck()
 	if opt in ["B","2"]:
-		os.system('xdg-open https://www.facebook.com/profile.php?id=100075538218986&mibextid=ZbWKwL');time.sleep(1)
+		os.system('xdg-open https://www.facebook.com/profile.php?id=100083900196913&mibextid=ZbWKwL');time.sleep(1)
 	if opt in ["C","3"]:
 		os.system('xdg-open https://www.facebook.com/profile.php?id=100075538218986&mibextid=ZbWKwL');time.sleep(1)
 		fb()
@@ -219,7 +219,7 @@ def b(uid,pwx,tl):
     try:
         for ps in pwx:
             session = requests.Session()
-            sys.stdout.write(f'\r \033[1;90m[\033[1;93mRAFAT\033[1;90m] \033[1;96m%s/%s\033[1;90m \033[1;90m[\033[1;92mOK:%s\033[1;90m] '%(loop,tl,len(oks))),
+            sys.stdout.write(f'\r \033[1;90m[\033[1;93mSIFAT\033[1;90m] \033[1;96m%s/%s\033[1;90m \033[1;90m[\033[1;92mOK:%s\033[1;90m] '%(loop,tl,len(oks))),
             sys.stdout.flush()
             pro = random.choice(ugen)
             #oo=random.choice(sss)
