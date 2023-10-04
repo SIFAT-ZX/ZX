@@ -128,11 +128,11 @@ logo=("""\033[1;33m
 ██████╔╝██║██║░░░░░██║░░██║░░░██║░░░
 ╚═════╝░╚═╝╚═╝░░░░░╚═╝░░╚═╝░░░╚═╝░░░
 \033[1;36m============================================
-\033[1;35m   \033[1;35mFACEBOK      : \033[1;32m SI F AT AHOMMED 
-\033[1;35m   \033[1;35mTOOL TYPE    :  \033[1;32mRANDOM 
-\033[1;35m   \033[1;35mGITHUB       :  \033[1;32mSIFAT-ZX
-\033[1;35m   \033[1;35mWHATAS APPS  :  \033[1;32m+8801701613050
-\033[1;35m   \033[1;35mTOOL VIRSION :  \033[1;32m1.0
+\033[1;35mFACEBOK      : \033[1;32m SI F AT AHOMMED 
+\033[1;35mTOOL TYPE    :  \033[1;32mRANDOM 
+\033[1;35mGITHUB       :  \033[1;32mSIFAT-ZX
+\033[1;35mWHATAS APPS  :  \033[1;32m+8801701613050
+\033[1;35mTOOL VIRSION :  \033[1;32m1.0
 \033[1;36m============================================\n""")                                                                            
 def cek_apk(session,coki):
 	w=session.get("https://mbasic.facebook.com/settings/apps/tabbed/?tab=active",cookies={"cookie":coki}).text
@@ -160,7 +160,7 @@ def Main():
 	os.system('clear')
 	print(logo)
 	print("[\033[1;37m01\33[1;92m]START RANDOM CLONING")
-	print("[\033[1;37m02\33[1;92m]FOLLOW MY FB PAGE")
+	print("[\033[1;37m02\33[1;92m]FOLLOW MY GITHUB")
 	print("[\033[1;37m03\33[1;92m]FOLLOW MY FB PROFILE")
 	print('[\033[1;37m00\33[1;92m]EXIT PROGRAMMING')
 	print(54*'━')
@@ -168,7 +168,7 @@ def Main():
 	if opt in ["A","1"]:
 		fuck()
 	if opt in ["B","2"]:
-		os.system('xdg-open https://www.facebook.com/profile.php?id=100083900196913&mibextid=ZbWKwL');time.sleep(1)
+		os.system('xdg-open https://github.com/SIFAT-ZX');time.sleep(1)
 	if opt in ["C","3"]:
 		os.system('xdg-open https://www.facebook.com/profile.php?id=100075538218986&mibextid=ZbWKwL');time.sleep(1)
 		fb()
@@ -199,7 +199,7 @@ def fuck():
 		print('[•] COUNTRY    : Bangladesh')
 		print('[•] TOTAL ID   :  '+tl)
 		print(f'[•] SIM CODE   : \033[1;92m {kode} ')
-		print('[•] WORKING ONLY MOBILE DATA+WIFI ... ')
+		print('[•] WORKING ONLY MOBILE DATA+WIFI')
 		print(50*'━')
 		for guru in user:
 			uid = kode+koda+kodb+guru
